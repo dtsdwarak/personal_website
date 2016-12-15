@@ -1,0 +1,21 @@
+---
+# CSS generator file
+---
+@charset "utf-8";
+
+@import "milligram";
+@import url('https://fonts.googleapis.com/css?family=Actor');
+
+html {
+  font-family: 'Actor', sans-serif;
+  background-color: #F0F0F0;
+}
+
+.content {
+  margin-top: 25%;
+  text-align: center;
+}
+
+.give-border {
+  border: 0.5px solid #292929;
+}

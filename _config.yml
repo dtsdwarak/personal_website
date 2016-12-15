@@ -1,0 +1,29 @@
+# Site
+title: Dwarak
+email: me@dwarak.in
+baseurl: ""
+url: "https://dwarak.in"
+
+# Social
+twitter_username: dtsdwarak
+github_username:  dtsdwarak
+
+# Bio
+user:
+  name: "Dwarak"
+  description: Code. Life. Fun.
+  about: "20 something software engineer. Blogs and codes by interest."
+  place: "Chennai, India"
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
