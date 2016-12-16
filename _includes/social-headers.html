@@ -1,0 +1,28 @@
+  <!-- Search Headers -->
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{ site.user.description }}">
+  <meta name="author" content="{{ site.title }}">
+  <!-- Search Headers End -->
+
+  <!-- Facebook Headers-->
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.user.about | strip_html | xml_escape | truncate: 200 }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:image" content="{{ site.user.image_link }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <!-- Facebook Headers Ends -->
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.social.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.social.twitter_username }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:url" content="{{ site.url }}">
+  <meta name="twitter:description" content="{{ site.user.about | strip_html | xml_escape | truncate: 200 }}">
+  <meta name="twitter:image:src" content="{{ site.user.image_link }}">
+
+  <!-- Schema.org for Google Plus -->
+  <meta itemprop="name" content="{{ site.title }}">
+  <meta itemprop="description" content="{{ site.user.description | strip_html | xml_escape | truncate: 200 }}">
+  <meta itemprop="image" content="{{ site.user.image_link }}">

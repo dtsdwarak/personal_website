@@ -1,19 +1,27 @@
 # Site
 title: Dwarak
-email: me@dwarak.in
 baseurl: ""
 url: "https://dwarak.in"
 
-# Social
-twitter_username: dtsdwarak
-github_username:  dtsdwarak
+# User's social address
+social:
+  twitter_username: dtsdwarak
+  gplus_name: DwarakaNath
+  linkedin_username: dtsdwarak
+  github_username:  dtsdwarak
+  blog_link: https://blog.dwarak.in
+  resume_link: https://dwrk.in/drive_resume
+  email_address: me-@-dwarak.in
 
 # Bio
 user:
   name: "Dwarak"
   description: Code. Life. Fun.
-  about: "20 something software engineer. Blogs and codes by interest."
+  about: "20 something software engineer. Mozzie of Madras. 
+          Square eyes. Shorcut show-off. Sluggard. Lousy singer. 
+          Alan of my wolfpack. Blogs and codes by interest."
   place: "Chennai, India"
+  image_link: "https://lh6.googleusercontent.com/1LfMDGZU8C0H4OqMD_lQVClmVFu45r83W4FIWt2GkbbenfTDKkNd_GqZR_IH2swjTYuuEf6I=w1366-h652-rw" 
 
 # Assets
 sass:
