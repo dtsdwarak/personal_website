@@ -4,7 +4,7 @@ test:
   stage: test
   script:
   - bundle install
-  - gem install jekyll
+  - gem install jekyll -v 3.4
   - jekyll build -d test
   artifacts:
     paths:
@@ -16,7 +16,7 @@ pages:
   stage: deploy
   script:
   - bundle install
-  - gem install jekyll
+  - gem install jekyll -v 3.4
   - jekyll build -d public
   artifacts:
     paths:
