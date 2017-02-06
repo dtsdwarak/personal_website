@@ -4,6 +4,7 @@ test:
   stage: test
   script:
   - bundle install
+  - bundle update
   - gem install jekyll -v 3.4
   - jekyll build -d test
   artifacts:
@@ -16,6 +17,7 @@ pages:
   stage: deploy
   script:
   - bundle install
+  - bundle update
   - gem install jekyll -v 3.4
   - jekyll build -d public
   artifacts:
