@@ -10,6 +10,11 @@ a jekyll powered portfolio website. To host your own, edit the ```_config.yml```
 * [JekyllRB](https://jekyllrb.com/)
 * [Gitlab CI and hosting](https://gitlab.com/dtsdwarak/dtsdwarak.gitlab.io/tree/master) - if you haven't tried yet, you should! It is amazing.
 
+## Help
+
+If the domain is unreachable or if you need help setting up domain for a new page/subdomain, refer to [Gitlab pages README](https://docs.gitlab.com/ee/user/project/pages/getting_started_part_three.html).
+
+
 ## Note
 
 * Repository hosted at Github is only a **mirror of the [Gitlab's repo](https://gitlab.com/dtsdwarak/dtsdwarak.gitlab.io/tree/master)**. If you're willing to contribute, please send your pull requests to Gitlab.
