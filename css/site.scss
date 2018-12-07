@@ -5,7 +5,16 @@
 
 @import "milligram";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css?family=Actor');
+
+@font-face {
+  font-family: 'Actor';
+  src: url('/fonts/Actor-Regular/Actor-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Actor-Regular/Actor-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Actor-Regular/Actor-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Actor-Regular/Actor-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Actor-Regular/Actor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Actor-Regular/Actor-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
 html {
   font-family: 'Actor', sans-serif;
